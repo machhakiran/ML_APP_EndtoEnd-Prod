@@ -5,6 +5,8 @@
 Housing Regression MLE is an end-to-end machine learning pipeline for predicting housing prices using XGBoost. The project follows ML engineering best practices with modular pipelines, experiment tracking via MLflow, containerization, AWS cloud deployment, and comprehensive testing. The system includes both a REST API and a Streamlit dashboard for interactive predictions.
 
 ## Architecture
+<img width="1024" height="1280" alt="image" src="https://github.com/user-attachments/assets/7f28f0b4-7577-4451-b11d-0a446a21559b" />
+
 
 The codebase is organized into distinct pipelines following the flow:
 `Load → Preprocess → Feature Engineering → Train → Tune → Evaluate → Inference → Batch → Serve`
